@@ -31,3 +31,27 @@ header{
     text-align: center;
 }
 
+p {
+    font-size:xx-large;
+}
+
+section{
+    padding-top: 10px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+div{
+    display: inline-block;
+    padding-top: 50px;
+    margin-right: 100px;
+}
+
+img{
+    width: 150px;
+    margin-left: 500px;
+    margin-top: 0;
+    display: block;
+}
+
+
