@@ -29,6 +29,7 @@ span {
 
 header{
     text-align: center;
+    font-size: xx-large;
 }
 
 p {
@@ -48,7 +49,7 @@ div{
 }
 
 img{
-    width: 150px;
+    width: 180px;
     margin-left: 500px;
     margin-top: 0;
     display: block;
