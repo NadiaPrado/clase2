@@ -13,20 +13,6 @@ body{
     margin: 4px
 }
 
-#conWidth {
-    width: 20px;
-    display: inline-block;
-    font-family:'Times New Roman', Times, serif;
-}
-
-.algunos{
-    background-color: beige;
-}
-
-span {
-    color:red;
-}
-
 header{
     text-align: center;
     font-size: xx-large;
@@ -34,25 +20,65 @@ header{
 
 p {
     font-size:xx-large;
+    display: flex;
+    
 }
 
-section{
-    padding-top: 10px;
-    display: inline-block;
-    margin-left: 100px;
+.imagen{
+    /*padding-top: 10px;*/
+    display: flex;
+    flex-direction: raw;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    /*margin-left: 100px;*/
+    /*justify-content: center;*/
+    
 }
 
-div{
-    display: inline-block;
-    padding-top: 50px;
+.interes{
+    /*padding-top: 10px;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: centre;
+    text-align: center;
+    /*margin-left: 100px;*/
+    /*justify-content: center;*/
+    
+}
+
+.estudios{
+    /*padding-top: 10px;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: xx-large;
+    /*margin-left: 100px;*/
+    /*justify-content: center;*/
+    
+}
+
+li{
+    justify-content: flex-end
+
+}
+
+/*div { 
+    /*display: inline-block;*/
+    /*padding-top: 50px;
     margin-right: 100px;
-}
+    display: flex;
+}*/
 
 img{
     width: 180px;
-    margin-left: 500px;
-    margin-top: 0;
-    display: block;
+    /*margin-left: 500px;*/
+    /*margin-top: 0;*/
+    /*display: block;*/
+    /*justify-content: centre;*/
+    display: flex;
 }
 
 
