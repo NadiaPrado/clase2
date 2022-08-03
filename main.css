@@ -21,7 +21,7 @@ header{
 p {
     font-size:xx-large;
     display: flex;
-    
+    text-align: start;    
 }
 
 .imagen{
@@ -35,33 +35,37 @@ p {
     
 }
 
-.interes{
+.interes {
     /*padding-top: 10px;*/
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: centre;
-    text-align: center;
-    /*margin-left: 100px;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*flex-wrap: nowrap;*/
+    text-align: start;
+    margin-left: 175px;
     /*justify-content: center;*/
     
 }
 
-.estudios{
+/*.estudios{
     /*padding-top: 10px;*/
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    text-align: center;
+    justify-content: flex-start*/
+    /*text-align: start;*/
+    /*font-size: xx-large;*/
+    /*margin-left: 175px;*/
+    /*justify-content: center;
+    
+}*/
+
+.Bloque{
+    display: block;
+    flex-wrap: wrap;
     font-size: xx-large;
-    /*margin-left: 100px;*/
-    /*justify-content: center;*/
-    
-}
-
-li{
-    justify-content: flex-end
+    margin-left: 175px;
+    justify-content: start;
 
 }
 
